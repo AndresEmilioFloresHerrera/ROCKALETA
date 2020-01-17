@@ -28,8 +28,8 @@ namespace _2._1
 
             }
 
-            Percentage = (Grade1 + Grade2 + Grade3) / 3;
-            Console.WriteLine($"the percentage of your 3 grades is {Percentage}% out of a 100%");
+            Percentage = ((Grade1 + Grade2 + Grade3) /100 )/3;
+            Console.WriteLine($"the percentage of your 3 grades is {Percentage:P} out of a 100%");
             Console.ReadKey();
         }
     }
