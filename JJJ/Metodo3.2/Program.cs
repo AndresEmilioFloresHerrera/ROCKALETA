@@ -4,22 +4,28 @@ namespace Metodo3._2
 {
     class Program
     {
-        public int Factorial(int choosenNumber)
+        public static int Factorial(int choosenNumbero)
         {
-            int finalResult;
-            for (int i = choosenNumber; i >0; i--)
-            {
-                finalResult = choosenNumber ;
-                finalResult = finalResult * i;
-            }
             
+            int multi= 1;
+            for (int i = choosenNumbero; i > 0; i--)
+            {
+
+                multi  *= i ;
+                
+            }
+            return multi;
         }
         static void Main(string[] args)
         {
-            Program n = new Program();
-            int ChoosenNumber=0;
-            Console.WriteLine($"the factorial of {ChoosenNumber} is {n.Factorial(ChoosenNumber)}");
+            
+            int ChoosenNumber;
+            Console.WriteLine("please select a number in order to calculate its factorial: ");
+            ChoosenNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"the factorial of {ChoosenNumber} is {Factorial(ChoosenNumber)}");
 
+
+            Console.ReadKey();
         }
     }
 }
