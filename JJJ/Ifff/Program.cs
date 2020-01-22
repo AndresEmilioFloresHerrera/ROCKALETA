@@ -5,13 +5,14 @@ namespace Ifff
     class Program
     {
 
-        const double SPriceCogs = 79.99;
-        const double SPriceGears = 250;
-        const double MarkUp = .15;
-        const double DiscountdMarkUp = .125;
-        const double tax = .89;
         static void Main(string[] args)
         {
+            const double SPriceCogs = 79.99;
+            const double SPriceGears = 250;
+            const double MarkUp = .15;
+            const double DiscountdMarkUp = .125;
+            const double tax = .89;
+
             //   You will be creating an application to help our sales associates sell our main products, cogs and gears.Cogs have a whole sale price
             //    of $79.99 and gears have a whole sale price of $250.00.When our sales associates are selling to our customers on the floor, we have a standard 
             //    15 % markup on our wholesale price for our sales price.However, if the customer purchases more than 10 of either item or a combined quantity of 16
@@ -32,8 +33,20 @@ namespace Ifff
 
             if (TotalNumberOfItems >= 16 || numberOfGears >=10 || numberOfCogs >= 10)
             {
+                TotalCost = ((numberOfGears * SPriceGears) * (1 + DiscountdMarkUp)) + ((numberOfCogs * SPriceCogs) * (1 + DiscountdMarkUp));
+            }
+            else
+            {
+                TotalCost = ((numberOfGears * SPriceGears) * (1 + MarkUp))+ ((numberOfCogs * SPriceCogs) * (1 + MarkUp));
 
             }
+
+            
+
+            Console.ReadKey();
+
+
+
         }  
 }
 }
