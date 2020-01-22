@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1", "2.1\2.1.csproj", "{26B41A82-E418-4CC6-8034-5225D2F33A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodo3.1", "Metodo3.1\Metodo3.1.csproj", "{29E14081-DB20-474C-802E-0B0214343F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodo3.1", "Metodo3.1\Metodo3.1.csproj", "{29E14081-DB20-474C-802E-0B0214343F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodo3.2", "Metodo3.2\Metodo3.2.csproj", "{5831C160-26E4-4138-8F10-C4A2165D68D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metodo3.2", "Metodo3.2\Metodo3.2.csproj", "{5831C160-26E4-4138-8F10-C4A2165D68D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ifff", "Ifff\Ifff.csproj", "{DFDE9A4A-0F2A-4CA0-BE94-3636E7054ED9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5831C160-26E4-4138-8F10-C4A2165D68D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5831C160-26E4-4138-8F10-C4A2165D68D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5831C160-26E4-4138-8F10-C4A2165D68D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDE9A4A-0F2A-4CA0-BE94-3636E7054ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDE9A4A-0F2A-4CA0-BE94-3636E7054ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDE9A4A-0F2A-4CA0-BE94-3636E7054ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDE9A4A-0F2A-4CA0-BE94-3636E7054ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
