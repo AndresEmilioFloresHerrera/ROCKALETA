@@ -14,11 +14,11 @@ namespace Loop2._2
             //                and a counting variable(to keep track of the number of scores they entered).
 
 
-            String Answer="yes";
-            Double Grade = 0;
+            String Answer=" ";
+            double Grade = 0;
             int counter = 0;
             double Sum = 0;
-            do //while (Answer.Equals("Yes", StringComparison.OrdinalIgnoreCase))
+            do 
             {
                 
                 Console.WriteLine("Please enter your exam score:");
@@ -31,30 +31,14 @@ namespace Loop2._2
 
 
             } while (Answer.Equals("Yes", StringComparison.OrdinalIgnoreCase));
-            Console.WriteLine(Grade);
-            Console.WriteLine(counter);
+
+            double Average;
+            Average = Sum / counter;
+
+            Console.WriteLine($"your average exam grade is: {Average.ToString("N2")}");
 
             Console.ReadKey();
-
-
-
-            //if (MyString.Equals(YourString, StringComparison.OrdinalIgnoreCase))
-
-
-
-
-
-
-            //static double Add(double[] numbersToAddUp)
-            //{
-            //    double r = 0;
-            //    int counter = 0;
-            //    while (counter < numbersToAddUp.Length)
-            //    {
-            //        var number = numbersToAddUp[counter];
-            //        r += number;
-            //        counter++;
-            //    }
+             
         }
     }
 }
