@@ -7,19 +7,9 @@ namespace _4._1Arrays
     {
         static void Main(string[] args)
         {
-            String[] Fruits = new string[5];
-            Fruits[0] = "apples";
-            Fruits[1] = "oranges";
-            Fruits[2] = "bananas";
-            Fruits[3] = "grapes";
-            Fruits[4] = "blueberries";
-            double[] Price = new double[5];
-            Price[0] = 0.99;
-            Price[1] = 0.50;
-            Price[2] = 0.50;
-            Price[3] = 2.99;
-            Price[4] = 1.99;
-
+            String[] Fruits = { "apples", "oranges", "bananas", "grapes", "blueberries" };
+            double[] Price = { 0.99, 0.50, 0.50, 2.99, 1.99 };
+         
             bool Frutas;
             String item;
             do
@@ -31,7 +21,7 @@ namespace _4._1Arrays
                 if (item == "apples" || item == "oranges" || item == "bananas" || item == "grapes" || item == "blueberries")
                 {
                     Frutas = true;
-                    Console.WriteLine($"the price of the item selected is: {Price[intemindx]:C2}");
+                    Console.WriteLine($"the price of the item selected is: {Price[intemindx]:C2} per item");
 
                 }
                 else
