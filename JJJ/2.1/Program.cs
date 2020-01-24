@@ -11,18 +11,18 @@ namespace _2._1
             {
                 if (i == 0)
                 {
-                    Console.WriteLine("Please enter your first Grade: ");
+                    Console.WriteLine("Please enter your first score out of a 100 points : ");
                     Grade1 = Convert.ToDouble(Console.ReadLine());
 
                 }
                 else if (i == 1)
                 {
-                    Console.WriteLine("Please enter your second Grade: ");
+                    Console.WriteLine("Please enter your second score out of a 100 points: ");
                     Grade2 = Convert.ToDouble(Console.ReadLine());
                 }
                 else if (i == 2)
                 {
-                    Console.WriteLine("Please enter your third Grade: ");
+                    Console.WriteLine("Please enter your third score out of a 100 points: ");
                     Grade3 = Convert.ToDouble(Console.ReadLine());
                 }
 
