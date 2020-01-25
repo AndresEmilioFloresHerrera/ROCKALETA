@@ -8,7 +8,7 @@ namespace _6._1Dictionary
     {
         static void Main(string[] args)
         {
-            //Redo the Arrays problem, however this time use a dictionary.  Your key value will be the fruit name and the value will be the price of the piece of fruit.
+            //Redo the Arrays problem, however this time use a dictionary.  Your key value will be the fruit name and the value will be the price of the piece of fruit.f
 
             Dictionary<String, double> dict = new Dictionary<String, double>();
 
