@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 5.1 (List problem)
+
 namespace _5._1Lists
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Create a console application that prompts the user to create a list of exam grades and then calculates the average. Your application should include two loops:
-            //Loop #1 should initialize the entry of all quiz grades.
-            //Loop #2 should calculate the sum and average of the total quiz grades.
+           
 
 
             List<double> ExamGrades = new List<double>();

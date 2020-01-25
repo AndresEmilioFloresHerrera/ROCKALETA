@@ -1,5 +1,8 @@
 ﻿using System;
 
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 2.2 (Loop problem)
+
 namespace Loop2._2
 {
     class Program

@@ -1,5 +1,8 @@
 ﻿using System;
 
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 3.2 (Method problem)
+
 namespace Metodo3._2
 {
     class Program

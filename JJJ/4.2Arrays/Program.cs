@@ -1,4 +1,6 @@
 ﻿using System;
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 4.2 (Array problem)
 
 namespace _4._2Arrays
 {

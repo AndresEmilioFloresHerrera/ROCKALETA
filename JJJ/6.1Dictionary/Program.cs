@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 namespace _6._1Dictionary
-    // name: Andres Emilio Flores Herrea
-    // problem Dictionary
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 6.1 (dictionary problem)
 {
     class Program
     {

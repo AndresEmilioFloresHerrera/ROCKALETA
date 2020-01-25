@@ -1,6 +1,6 @@
 ﻿using System;
-// name: Andres Emilio Flores Herrera
-// problem 1 conditionals
+// Andres Emilio Flores Herrera ID: 113412581
+// Problem number 2.1 (Loop problem)
 
 namespace _2._1
 {
