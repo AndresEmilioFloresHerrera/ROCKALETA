@@ -43,12 +43,8 @@ namespace _4._2Arrays
 
 
 
-            //Create a console application that will print out your first name and last name, with correct
-            //punctuation(e.g.upper case characters where needed, like the first letter of each name).  To get the characters,
-            //create two arrays, the first one with all of the lower -case characters in the alphabet.  The second array will have all of
-            //the upper case letters in the alphabet.  If you have special characters in your name that are outside of the standard english alphabet,
-            //you can disregard this or you can add them to your arrays as well.Using your two arrays, access the correct elements to concatenate your name and output 
-            //it to the console window.Feel free to use the following code to get you started:
+           
+            
 
             //A  n  d  r  e  s   E  m  i  l  i  o   F  l  o  r  e  s   H  e  r  r  e  r  a
             //0  13 3  17 4  18  4  12 8  11 8  14  5  11 14 17 4  18  7  4  17 17 8  17 0

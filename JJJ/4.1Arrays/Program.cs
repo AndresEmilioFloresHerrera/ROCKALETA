@@ -5,6 +5,7 @@ namespace _4._1Arrays
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             String[] Fruits = { "apples", "oranges", "bananas", "grapes", "blueberries" };
@@ -28,6 +29,7 @@ namespace _4._1Arrays
                 {
                     Frutas = false;
                     Console.WriteLine("you have either written an unexisting item or had a grammar mistake,");
+                    Console.WriteLine(" ");
                 }
             } while (Frutas == false);
 

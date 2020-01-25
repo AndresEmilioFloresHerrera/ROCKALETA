@@ -1,4 +1,6 @@
 ﻿using System;
+// name: Andres Emilio Flores Herrera
+// problem 1 conditionals
 
 namespace _2._1
 {
