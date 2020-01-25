@@ -1,5 +1,5 @@
 ﻿using System;
-//using System.Collections.Generic;
+using System.Linq;
 
 namespace _4._1Arrays
 {
@@ -18,7 +18,7 @@ namespace _4._1Arrays
             item = Console.ReadLine();
             int intemindx = Array.IndexOf(Fruits, item);
 
-                if (item == "apples" || item == "oranges" || item == "bananas" || item == "grapes" || item == "blueberries")
+                if (Fruits.Contains(item))
                 {
                     Frutas = true;
                     Console.WriteLine($"the price of the item selected is: {Price[intemindx]:C2} per item");
@@ -31,10 +31,10 @@ namespace _4._1Arrays
                 }
             } while (Frutas == false);
 
-            
 
-           
-            
+
+            //Array.Exists(language, element => element == "Ruby")); 
+
 
             Console.ReadKey();
         }
