@@ -11,7 +11,7 @@ namespace Ifff
             const double SPriceGears = 250;
             const double MarkUp = .15;
             const double DiscountdMarkUp = .125;
-            const double tax = .89;
+            const double tax = .089;
 
             //   You will be creating an application to help our sales associates sell our main products, cogs and gears.Cogs have a whole sale price
             //    of $79.99 and gears have a whole sale price of $250.00.When our sales associates are selling to our customers on the floor, we have a standard 
@@ -28,20 +28,44 @@ namespace Ifff
             int numberOfCogs = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the number of Gears you would like to purchase: ");
             int numberOfGears = Convert.ToInt32(Console.ReadLine());
+
             int TotalNumberOfItems = numberOfCogs + numberOfGears;
-            double TotalCost, DiscountAmount, SalesTax, GrandTotal;
+            double TotalCostbeforeMarkup, totalcost, DiscountAmount, SalesTax, GrandTotal;
+
+            TotalCostbeforeMarkup = (numberOfCogs * SPriceCogs) + (numberOfGears * SPriceGears);
 
             if (TotalNumberOfItems >= 16 || numberOfGears >=10 || numberOfCogs >= 10)
             {
-                TotalCost = ((numberOfGears * SPriceGears) * (1 + DiscountdMarkUp)) + ((numberOfCogs * SPriceCogs) * (1 + DiscountdMarkUp));
+                totalcost = TotalCostbeforeMarkup * (1+DiscountdMarkUp);
             }
             else
             {
-                TotalCost = ((numberOfGears * SPriceGears) * (1 + MarkUp))+ ((numberOfCogs * SPriceCogs) * (1 + MarkUp));
+                totalcost = TotalCostbeforeMarkup * (1+MarkUp);
 
             }
 
-            
+            if (TotalNumberOfItems >= 16 || numberOfGears >= 10 || numberOfCogs >= 10)
+            {
+                DiscountAmount = TotalCostbeforeMarkup * 0.025;
+            }
+            else
+            {
+                DiscountAmount = 0;
+
+            }
+
+            SalesTax = totalcost * tax;
+
+            GrandTotal = totalcost + SalesTax;
+
+            Console.WriteLine($"The total cost for the products before taxes is : {totalcost:C}");
+            Console.WriteLine($"A total amount of {DiscountAmount:C} in discount  has been applied due to the number of products purchased");
+            Console.WriteLine($"the total amount of taxes applied is: {SalesTax:C}");
+            Console.WriteLine($"the grand total of this sell is: {GrandTotal:C}");
+            Console.WriteLine(" ");
+            Console.WriteLine("THANK YOU FOR YOUR BUSINESS");
+
+
 
             Console.ReadKey();
 

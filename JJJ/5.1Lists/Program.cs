@@ -21,7 +21,7 @@ namespace _5._1Lists
             {
                 Console.WriteLine("Please enter the your grade score out of a 100 possible points");
                 ExamGrades.Add(Convert.ToDouble(Console.ReadLine()));
-                Console.WriteLine("would you like to add other grade?");
+                Console.WriteLine("would you like to add another grade?");
                 Answer = Console.ReadLine();
 
 
@@ -34,8 +34,9 @@ namespace _5._1Lists
                 count++;
             }
 
-            Console.WriteLine(Sum);
-            Console.WriteLine(count);
+            double Percen = (Sum / count)/100;
+            Console.WriteLine($"the average percentage of your overall grade is {Percen:P} out of a 100%" );
+            
             Console.ReadKey();
         }
     }
